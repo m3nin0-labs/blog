@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 28e0825a-b25a-44a5-936b-ac86e3247e71
+      url: 'https://fmenino-blog.netlify.app'
