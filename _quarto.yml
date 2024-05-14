@@ -16,7 +16,8 @@ website:
         href: posts/index.qmd
 
     right:
-      - about.qmd
+      - text: About
+        href: about.qmd
       - icon: github
         href: https://github.com/M3nin0
       - icon: linkedin
