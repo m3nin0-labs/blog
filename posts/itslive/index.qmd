@@ -13,6 +13,6 @@ When I became a teenager, I felt a strong urge to create. Then, I discovered pro
 
 During my learning process, the resource I used the most, besides creating small projects, was writing. I created various materials. In college, for example, I had the pleasure of seeing several classmates use texts I wrote to explain topics like object-oriented programming, data structures, and more. In my master's program, along with several friends, we even produced books, such as [Introduction to data analysis (pt-br)](https://dataat.github.io/introducao-analise-de-dados/) and [Introduction to spatial data analysis (pt-br)](https://dataat.github.io/introducao-analise-de-dados-espaciais/introdu%C3%A7%C3%A3o.html).
 
-To continue this passion for writing, I decided to create this blog. Inspired by my friend [Carlos Neto](https://carlosneto.dev/), my goal here is to share what I'm doing, experiments, tests, and documents I write to record knowledge.
+To extend this passion for writing, I decided to create this blog. Inspired by my friend [Carlos Neto](https://carlosneto.dev/), my goal here is to share what I'm doing, experiments, tests, and documents I write to record knowledge.
 
 See you soon!
