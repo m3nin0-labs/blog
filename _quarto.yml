@@ -17,6 +17,9 @@ website:
     left: 
       - text: Posts
         href: posts/index.qmd
+      - text: Projects
+        href: https://github.com/m3nin0-labs
+        target: _blank
 
     right:
       - text: About
