@@ -32,6 +32,10 @@ website:
     location: navbar
     type: overlay
 
+  comments: 
+    giscus: 
+      repo: m3nin0-labs/blog
+
 format:
   html:
     theme: 
