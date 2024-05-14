@@ -13,7 +13,7 @@ lightbox: auto
 
 ## Welcome
 
-Welcome to the Menino's lab, a dedicated space where I explore and document my journey in the expansive fields of data engineering, data science, and geospatial data science.
+Welcome to the Menino's lab, a space where I explore and document my journey in the expansive fields of software devleopment, data engineering, and geospatial data science.
 
 ## Recent Posts
 
