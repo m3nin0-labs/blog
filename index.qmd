@@ -8,8 +8,6 @@ listing:
     image-align: right
 page-layout: full
 title-block-banner: true
-filters:
-  - lightbox
 lightbox: auto
 ---
 
