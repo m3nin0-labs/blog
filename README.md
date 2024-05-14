@@ -15,8 +15,6 @@ This blog is designed with a minimalist, modern aesthetic, focusing on readabili
 
 ## Getting Started
 
-To get started with this repository, you'll need to have Quarto installed. Follow the steps below to set up the blog locally:
-
 **1. Clone the Repository**:
 
 ```sh
