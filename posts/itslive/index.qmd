@@ -5,14 +5,16 @@ date: "2024-05-14"
 categories: [history]
 ---
 
-Hello, world!
+Sharing open data, tools, and knowledge is a transformative action for those who share and those who use the shared content. This logic creates a circular economy, where what is generated and shared by one is used by others as a basis for more productions, which will also be shared at some point.
 
-Since childhood, I've always enjoyed writing. Initially, I wrote stories full of fantasy. It was incredible for me to be able to create without limits.
+This circular logic generates new and more robust tools, knowledge, and data. This is because the problems and limitations of an initial version of these elements are progressively reduced through their use and improvements over time.
 
-When I became a teenager, I felt a strong urge to create. Then, I discovered programming. Since then, I've been working with it every day and still find it amazing.
+This concept is spread in various contexts, such as software, scientific, and productive (e.g., agriculture and livestock). For example, in the software context, several tools, such as Linux and programming languages like Python and R, are shared as open-source, helping thousands of people daily. In the scientific context, the openness of data and tools beyond the methodological description in articles has shown the ability to accelerate scientific production.
 
-During my learning process, the resource I used the most, besides creating small projects, was writing. I created various materials. In college, for example, I had the pleasure of seeing several classmates use texts I wrote to explain topics like object-oriented programming, data structures, and more. In my master's program, along with several friends, we even produced books, such as [Introduction to data analysis (pt-br)](https://dataat.github.io/introducao-analise-de-dados/) and [Introduction to spatial data analysis (pt-br)](https://dataat.github.io/introducao-analise-de-dados-espaciais/introdu%C3%A7%C3%A3o.html).
+Bringing these concepts to my reality as a software developer, such sharing practices have been part of my life since the first command line I wrote in Shell. I learned a lot with open forums and wikis, and of course, I used many open tools.
 
-To extend this passion for writing, I decided to create this blog. Inspired by my friend [Carlos Neto](https://carlosneto.dev/), my goal here is to share what I'm doing, experiments, tests, and documents I write to record knowledge.
+So, to keep the circular economy running in my context, I always try to share what I am learning. An example of this is the [DataAt](https://github.com/dataAt) initiative, in which I was a collaborator from 2017 to 2022, where together with friends, we produced materials on [data science](https://dataat.github.io/introducao-analise-de-dados/), [spatial data science](https://dataat.github.io/introducao-analise-de-dados-espaciais/introdu%C3%A7%C3%A3o.html), and Docker. Our last release was an [introductory book on Machine Learning](https://dataat.github.io/introducao-ao-machine-learning/), made available for free to the entire community.
 
-See you soon!
+Now, to keep sharing and motivated by my distinguished friend [Carlos Neto](https://carlosneto.dev/), I created this blog to share my experiments and experiences in managing and processing geospatial data (e.g., data cubes, geospatial metadata, land use, and land cover maps).
+
+See you soon 👋🏾
