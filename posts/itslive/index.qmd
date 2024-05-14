@@ -2,8 +2,17 @@
 title: "It's alive!"
 author: "Felipe Carlos"
 date: "2024-05-14"
-date-modified: "2024-05-14"
-categories: [news, history]
+categories: [history]
 ---
 
-This is the text of my first publication!
+Hello, world!
+
+Since childhood, I've always enjoyed writing. Initially, I wrote stories full of fantasy. It was incredible for me to be able to create without limits.
+
+When I became a teenager, I felt a strong urge to create. Then, I discovered programming. Since then, I've been working with it every day and still find it amazing.
+
+During my learning process, the resource I used the most, besides creating small projects, was writing. I created various materials. In college, for example, I had the pleasure of seeing several classmates use texts I wrote to explain topics like object-oriented programming, data structures, and more. In my master's program, along with several friends, we even produced books, such as [Introduction to data analysis (pt-br)](https://dataat.github.io/introducao-analise-de-dados/) and [Introduction to spatial data analysis (pt-br)](https://dataat.github.io/introducao-analise-de-dados-espaciais/introdu%C3%A7%C3%A3o.html).
+
+To continue this passion for writing, I decided to create this blog. Inspired by my friend [Carlos Neto](https://carlosneto.dev/), my goal here is to share what I'm doing, experiments, tests, and documents I write to record knowledge.
+
+See you soon!
