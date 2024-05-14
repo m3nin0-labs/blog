@@ -17,14 +17,14 @@ This blog is designed with a minimalist, modern aesthetic, focusing on readabili
 
 To get started with this repository, you'll need to have Quarto installed. Follow the steps below to set up the blog locally:
 
-1. **Clone the Repository**:
+**1. Clone the Repository**:
 
 ```sh
 git clone https://github.com/m3nin0-labs/blog
 cd blog
 ```
 
-2. **Preview blog content**:
+**2. Preview blog content**:
 
 ```sh
 quarto preview
