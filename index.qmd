@@ -22,7 +22,7 @@ Welcome to the Menino's lab, a space where I explore and document my journey in 
 ::: {#posts}
 :::
 
-## Favorite AI Art Images
+## Favorite AI Art
 
 ::: {class="gallery-container"}
 
