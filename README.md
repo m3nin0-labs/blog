@@ -24,11 +24,10 @@ git clone https://github.com/m3nin0-labs/blog
 cd blog
 ```
 
-2. **Install Quarto**: If you haven't already, you can install Quarto by following the [installation guide](https://quarto.org/docs/get-started/).
-
-
-3. **Preview blog content**:
+2. **Preview blog content**:
 
 ```sh
 quarto preview
 ```
+
+> To preview the blog content, you must have Quarto installed. If you haven't already, you can install Quarto by following the [installation guide](https://quarto.org/docs/get-started/).
