@@ -6,10 +6,11 @@ listing:
     page-size: 3
     fields: [date, title, description, subtitle, categories, author, reading-time] 
     image-align: right
-page-layout: full
-title-block-banner: true
+    feed: true
 lightbox: auto
 comments: false
+page-layout: full
+title-block-banner: true
 ---
 
 ## Welcome
