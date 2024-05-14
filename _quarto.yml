@@ -7,7 +7,9 @@ website:
   title: "Menino's Lab"
   description: "Menino's personal blog space to learn and share knowledge"
   site-url: https://blog.fmenino.dev/
+  favicon: assets/profile/fmenino.jpeg
   open-graph: true
+  twitter-card: true
   page-navigation: true
   page-footer: 
     right: "Website made with [Quarto](https://quarto.org/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
