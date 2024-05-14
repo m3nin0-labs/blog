@@ -26,10 +26,13 @@ website:
         href: about.qmd
       - icon: github
         href: https://github.com/M3nin0
+        target: _blank
       - icon: linkedin
         href: https://linkedin.com/in/fmenino
+        target: _blank
       - icon: rss
         href: index.xml
+        target: _blank
 
   search: 
     location: navbar
