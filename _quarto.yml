@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Menino's Lab"
-  description: "Menino's personal blog space to learn and share knowledge"
+  description: "Space to share knowledge"
   site-url: https://blog.fmenino.dev/
   favicon: assets/profile/fmenino.jpeg
   open-graph: true
