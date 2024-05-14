@@ -1,0 +1,40 @@
+project:
+  type: website
+  preview:
+    port: 4200
+
+website:
+  title: "Menino's Lab"
+  open-graph: true
+  page-navigation: true
+  page-footer: 
+    right: "Website made with [Quarto](https://quarto.org/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+
+  navbar:
+    left: 
+      - text: Posts
+        href: posts/index.qmd
+
+    right:
+      - about.qmd
+      - icon: github
+        href: https://github.com/M3nin0
+      - icon: linkedin
+        href: https://linkedin.com/in/fmenino
+      - icon: rss
+        href: index.xml
+
+  search: 
+    location: navbar
+    type: overlay
+
+format:
+  html:
+    theme: 
+      light:
+        - simplex
+        - style/theme.scss
+      dark:
+        - darkly
+        - style/theme.scss
+    css: style/global.css

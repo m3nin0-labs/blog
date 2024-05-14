@@ -1,0 +1,9 @@
+---
+title: "It's alive!"
+author: "Felipe Carlos"
+date: "2024-05-14"
+date-modified: "2024-05-14"
+categories: [news, history]
+---
+
+This is the text of my first publication!

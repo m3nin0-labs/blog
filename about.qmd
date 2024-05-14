@@ -1,0 +1,30 @@
+---
+title: "Felipe Carlos"
+image: assets/profile/fmenino.jpeg
+about:
+  template: trestles
+  image-width: 15em
+  image-alt: Profile image
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/fmenino
+    - icon: github
+      text: Github
+      href: https://github.com/M3nin0
+
+---
+
+:::{#hero-heading}
+
+Hi, I'm Felipe Carlos 👋🏾
+
+I'm a data engineer with a strong background in geospatial data handling and processing. I hold a master's degree in applied computing for Earth Observation Science, where I focused on Reproducible Earth Observation Science.
+
+I'm a full-stack developer, working as the principal maintainer of the [GEO Knowledge Hub](https://github.com/e-sensing/sits), an open-source digital repository of open, authoritative and reproducible knowledge created by the Group on Earth Observations (GEO). I'm also an active contributor of the [sits](https://github.com/e-sensing/sits) R package, an end-to-end toolkit for land use and land cover classification.
+
+In my free time, I enjoy experimenting with stable diffusion models and playing with geospatial tools and technologies, including GDAL, GeoPandas, Shapely, Rasterio, and many others. 
+
+Currently, I'm learning the aspects of the integration between Rust and Python.
+
+:::
