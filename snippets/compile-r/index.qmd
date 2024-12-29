@@ -1,5 +1,5 @@
 ---
-title: "Compiling a specific version of R"
+title: "Compiling R"
 author: "Felipe Carlos"
 date: "2024-12-29"
 categories: [R]
@@ -7,7 +7,7 @@ categories: [R]
 
 Compiling R from source can be an effective way to customize your installation for specific needs, such as enabling shared libraries or tailoring it for a server environment.
 
-This document shows the commands I use to compile R in my Ubuntu environments.
+This document shows the commands I use to compile [R](https://www.r-project.org/) in my Ubuntu environments.
 
 **1. Update package list**
 
