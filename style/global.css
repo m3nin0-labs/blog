@@ -68,6 +68,24 @@
 }
 
 /* 
+    Post listings (Snippets page)
+*/
+#listing-snippets .quarto-post {
+    gap: unset;
+    flex-direction: row !important;
+    margin-top: 1em;
+}
+
+#listing-snippets .quarto-post .metadata {
+    flex-basis: 15% !important;
+    text-align: right;
+}
+
+#listing-snippets .quarto-post .body h3.no-anchor {
+    font-size: 1em;
+}
+
+/* 
     AI Art
 */
 #favorite-ai-art-images h2.anchored {

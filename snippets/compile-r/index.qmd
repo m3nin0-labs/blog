@@ -1,0 +1,78 @@
+---
+title: "Compiling a specific version of R"
+author: "Felipe Carlos"
+date: "2024-12-29"
+categories: [R]
+---
+
+Compiling R from source can be an effective way to customize your installation for specific needs, such as enabling shared libraries or tailoring it for a server environment.
+
+This document shows the commands I use to compile R in my Ubuntu environments.
+
+**1. Update package list**
+
+Update the package lists to ensure you have the latest versions of the required tools and libraries:
+
+```{.sh}
+sudo apt update
+```
+
+**2. Install required dependencies**
+
+Install the necessary tools and libraries for compiling R:
+
+```{.sh}
+sudo apt install \
+        build-essential wget gfortran tzdata \
+        libreadline-dev libbz2-dev liblzma-dev \
+        libpcre2-dev libcurl4-openssl-dev \
+        libssl-dev libxml2-dev \
+        libblas-dev liblapack-dev \
+        zlib1g zlib1g-dev \
+        texlive-latex-base texlive-fonts-recommended \
+        texlive-fonts-extra texlive-latex-extra \
+        openjdk-11-jdk
+```
+
+**3. Download the R Source Code**
+
+Download the source code for the desired R version (e.g., R `4.3.0`):
+
+```{.sh}
+wget https://cran.r-project.org/src/base/R-4/R-4.3.0.tar.gz
+```
+
+Next, extract the downloaded file and navigate into the source directory:
+
+```{.sh}
+tar -zxvf R-4.3.0.tar.gz
+cd R-4.3.0
+```
+
+**4. Configure the build**
+
+Configure the build with the `--enable-R-shlib` option to enable the shared library `libR.so`:
+
+```{.sh}
+./configure --enable-R-shlib
+```
+
+> For servers or minimal installations, you need to exclude the X11 graphical system by adding the `--with-x=no` flag
+
+**5. Compile R**
+
+Build the source code using the `make` command:
+
+```{.sh}
+make
+```
+
+> This step may take some time depending on your system.
+
+**6. Install R**
+
+Install the compiled binaries and libraries system-wide:
+
+```{.sh}
+sudo make install
+```

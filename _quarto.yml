@@ -14,12 +14,14 @@ website:
   page-footer: 
     right: "Website made with [Quarto](https://quarto.org/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
   navbar:
-    left: 
-      - text: Posts
-        href: posts/index.qmd
+    left:
       - text: Projects
         href: https://github.com/m3nin0-labs
         target: _blank
+      - text: Posts
+        href: posts/index.qmd
+      - text: Snippets
+        href: snippets/index.qmd
 
     right:
       - text: About
@@ -44,6 +46,9 @@ website:
 
 format:
   html:
+    code-copy: true
+    code-link: true
+    code-block-background: true
     theme: 
       light:
         - simplex
