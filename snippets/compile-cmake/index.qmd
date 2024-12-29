@@ -1,0 +1,75 @@
+---
+title: "Compiling CMake"
+author: "Felipe Carlos"
+date: "2024-12-28"
+categories: [R]
+---
+
+Compiling CMake from source is a straightforward process that ensures you can use a specific version tailored to your requirements. 
+
+This document shows the commands I use to compile [CMake](https://cmake.org/) in my Ubuntu environments.
+
+**1. Update package list**
+
+Start by updating the package list to ensure you have the latest versions of necessary tools and libraries:
+
+```{.sh}
+sudo apt update -y
+```
+
+**2. Install required dependencies**
+
+Install the required tools and libraries for compiling CMake:
+
+```{.sh}
+sudo apt install build-essential wget libssl-dev -y
+```
+
+**3. Download the CMake source code**
+
+Download the source code for the desired CMake version (e.g., CMake `3.19.8`):
+
+```{.sh}
+wget https://github.com/Kitware/CMake/releases/download/v3.19.8/cmake-3.19.8.tar.gz
+```
+
+Next, extract the downloaded file and navigate to the resulting directory:
+
+```{.sh}
+tar -zxvf cmake-3.19.8.tar.gz
+cd cmake-3.19.8
+```
+
+**4. Configure the build**
+
+Use the boostrap script to configure the build:
+
+```{.sh}
+./bootstrap
+```
+
+**5. Compile CMake**
+
+Build the source code using the `make` command:
+
+```{.sh}
+make
+```
+
+> This step may take some time depending on your system.
+
+**6. Install CMake**
+
+Install the compiled binaries system-wide:
+
+```sh
+sudo make install
+```
+
+**7. Verify the installation**
+
+Now, confirm that the installation was successful and check the installed version of CMake:
+
+```sh
+cmake --version
+```
