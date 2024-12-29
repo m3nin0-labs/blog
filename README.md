@@ -3,16 +3,6 @@
 
 Welcome to my personal blog, created using [Quarto](https://quarto.org/). This blog serves as a space where I share my thoughts, projects, and insights on various topics, including programming, data engineering, geospatial tools, and more.
 
-## About the Blog
-
-This blog is designed with a minimalist, modern aesthetic, focusing on readability and a clean user experience. It is built using Quarto, a powerful and flexible tool for creating scientific and technical documents.
-
-## Features
-
-- **Minimalist Design**: A modern, white-themed design for a clean and distraction-free reading experience.
-- **Easy Navigation**: Simple and intuitive navigation to help you find content quickly.
-- **Responsive Layout**: Optimized for both desktop and mobile viewing.
-
 ## Getting Started
 
 **1. Clone the Repository**:
